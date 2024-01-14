@@ -1,0 +1,147 @@
+@import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+  sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(#54C0EB,#324A5E);
+}
+
+
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 89.94%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #000000;
+  border-radius: 20px;
+  
+}
+
+header ul li a:hover, 
+header ul li a.active {
+  background-color: #324A5E;
+  color: #ffffff;
+}
+
+section {
+  position:relative;
+  width: 100%;
+  height: 100vh;
+
+}
+
+section::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #005e7a,transparent);
+  z-index: 1000;
+}
+
+section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section img#sky
+{
+  z-index: 5;
+}
+
+section img#mountains
+{
+  z-index:7;
+}
+
+section img#frontrocks
+{
+  z-index: 9;
+}
+
+section img#leaves
+{
+  z-index: 8;
+}
+
+section img#water
+{
+  z-index: 10;
+}
+
+#btn
+{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius:  40px;
+  background: #ffffff;
+  color: #000000;
+  font-size: 1.5em;
+  z-index: 9;
+  transform: translateY(100px);
+}
+
+.sec {
+  position: relative;
+  padding: 100px;
+  background-color: #005e7a;
+}
+
+.sec h2
+{
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.sec p {
+  font-size: 1em;
+  color: #000000;
+}
